@@ -1,0 +1,156 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+// #1 und #2 Plazieren und Background Bereich
+html {
+    height: 100%;
+  }
+body {  
+    background-image: linear-gradient(#172C4F, #172A42, #342D18, #9F8E31, #DFC62E, white);
+    padding: 30px;
+    text-align: center;
+}
+
+#header-section {
+    display: flex;
+    flex-direction: column;
+    background: url("https://shootframe.files.wordpress.com/2012/02/long-exposure-photography-fireflies-yuki-karo-2.jpg") no-repeat center;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 20px;
+    max-width: 700px;
+    color: white;
+    margin-bottom: 50px;  
+}
+
+.title-h1 {
+    font-size: 50px;
+    font-family: 'Splash', cursive;    
+}
+.subtitle-h2 {
+    font-size: 25px;
+    font-family: 'Amatic SC', cursive;
+    background-color: #9F8E31;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-shadow: 0px 0px 1px #172A42;
+    
+}
+
+//#3 Bilder und Hover
+#tour-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    vertical-align: top;
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    align-content: space-between;
+    color: white;
+    text-shadow: 0px 0px 1px #172A42;
+    margin-right: auto;
+    border-top: 20px;
+    max-width: 700px;
+    margin-bottom: 50px;  
+}
+
+.tour-div-title {
+    flex: 0 0 100%;
+    font-size: 35px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: lighter;
+    color: white;
+    text-shadow: 0px 0px 1px #172A42;
+    letter-spacing: 1px;
+    padding-left: 150px;
+    padding-right: 150px;
+   
+}
+#tours-div { 
+    padding: 30px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    
+}
+
+.tour-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #9F8E31;
+    transition: transform .2s; /* Animation */
+          
+}
+
+
+.tour-img:hover {
+  transform: scale(1.1); /* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.text-tours {
+    padding: 30px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    
+}
+
+.p-tours {
+    width: 200px;
+    font-size: 25px;
+    font-family: 'Amatic SC', cursive;
+    background-color: #9F8E31;
+    color:bisque;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-shadow: 0px 0px 1px #172A42;
+    box-shadow:1px 1px #342D18;
+}
+
+
+#footer-section {
+        width: 600px;
+        height: 250px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        background: transparent #9F8E31;
+        color: #172C4F;
+        border: #9F8E31 solid 15px;
+        border-radius: 25px;
+}
+
+#coyote-img {
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #9F8E31;
+    margin: 20px;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-family: 'Arsenal', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    text-shadow: 0px 0px  2px #342D18;
+    font-weight: bold;
+}
